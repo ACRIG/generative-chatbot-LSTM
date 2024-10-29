@@ -20,7 +20,7 @@ To deploy this project run
 
 ### Step 2 : Run Docker Container
 ```bash
-  docker run -d --restart always --name flask-app -p 5000:5000 chatbot-app
+  docker run -d --restart always --name chatbot-app -p 5000:5000 chatbot-app
 ```
 
 To stop and delete the container run
